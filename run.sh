@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PROG=Main
+PROG=Newjav
 
 javac $PROG.java
-java $PROG
+java $PROG "$@"
