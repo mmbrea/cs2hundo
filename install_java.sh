@@ -1,3 +1,4 @@
 #!/bin/bash
 
-sudo apt install default-jdk checkstyle
+sudo apt-get update && sudo apt-get upgrade -y
+sudo apt install -y default-jdk checkstyle clang-format
