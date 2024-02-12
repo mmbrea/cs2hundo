@@ -1,6 +1,7 @@
 #!/bin/bash
 
-PROG=Newjav
+PROG=Main
+# don't put .java
 
 javac $PROG.java
 java $PROG "$@"
