@@ -1,14 +1,31 @@
 import java.util.Scanner;
 
-public class Main {
-  /**
-   * Program entry.
+public class MthdStubsStatistics {
+  /*
+   * my textbox starts here
+   */
+  public static int getUserNum() {
+    System.out.println("FIXME: Finish getUserNum()");
+    return 1;
+  }
+
+  public static int computeAvg(int userNum1, int userNum2) {
+    int avgResult = -1;
+    System.out.println("FIXME: Finish computeAvg()") return avgResult;
+  }
+  /*
+   * my textbox ends here
    */
   public static void main(String[] args) {
-    Scanner input = new Scanner("1 2\n3 4\n");
-    System.out.print(input.nextInt());
-    System.out.print(input.next());
-    String str = input.nextLine();
-    System.out.println("#" + str + "#");
+    int userNum1;
+    int userNum2;
+    int avgResult;
+
+    userNum1 = getUserNum();
+    userNum2 = getUserNum();
+
+    avgResult = computeAvg(userNum1, userNum2);
+
+    System.out.println("Avg: " + avgResult);
   }
 }
