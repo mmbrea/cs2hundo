@@ -1,10 +1,11 @@
 #!/bin/bash
 
-PROG=NewTesting
-# don't put .java
-#  -Orig line says:  PROG=Main
-#  Main (or whatever is here) needs to be replaced with the name of the
-#  java file you are trying to run
+CWD=$(git rev-parse --show-toplevel)
+source "$CWD/sh/common.sh"
 
-javac $PROG.java
-java $PROG "$@"
+# Compile and then run the program.
+javac "$PROG.java"
+
+echo "Running '$PROG' (command-line: '$*')."
+java "$PROG" "$@" || true
+echo "'$PROG' exited $?."
