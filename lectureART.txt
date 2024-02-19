@@ -1,0 +1,195 @@
+02-10-2023:
+" Any sufficiently advanced technology is indistinguishable from magic. "
+
+Artistic Vision
+Interactive computational guidance for developing expertise.
+
+given expertise in domain as trying to learn the task
+
+Tools: Tools for developing domain expertise.
+
+Leverages that experts have trained eyes to see things in certain ways.
+-example: detecting abnormality on xray.
+chess master looking at board.
+
+following steps of trained expert meant faster grasp of the thing. MAkes sense to me.
+
+How design systems for this?
+Ai taking good first steps.
+Midjourney AI.
+
+spectrum of expertise:
+-performing as an expert-------becoming an expert----
+-line? person as dynamic part of hte equation.
+
+augenting human intellect
+"How might we help novices see in the way that experts do?"
+-what do novices need to gain this expertise? and then can they develop their own? - the point of this talk.
+
+How might we help develop novices develop their own. o
+
+Is done with expert feedback in instituion learning situations.
+Contextual feedback and regular diaglogue.
+
+Embedding expert vision for photography.
+-"How would you describe the composition?"
+-would be a range. ie rule of thirds. but complex grid would work better.
+-Annotations make abstract ideas more concrete.
+
+do computation tools have the ability to close the feedback loop?
+to help people make decisions and assess their designs?
+
+mynote: Why not study basic art to help develop this? Are we just talking about
+tools needed/or that could be helpful?
+
+composition computational tool.
+-portrait lighting styles
+-decluttering
+-design feedback
+-color filters
+-data storytelling ? explains data and visualizations
+
+Process desribed in more detail: using decluttering, portrait comp,
+
+-Supporting awaereness through visual annotations
+-proving contecutal exemplrs as inspiration
+-encouraging reflection through principled feedback
+
+Decluttering: Focusing on what draws the viewers attention.
+-reframing
+
+How to support?
+How is it recognized?
+lense of contrast used by professionals.
+subject-background separation, image border flicker.
+
+seeing contrast : squint at the image. Look using greyscale. Draw lines of contrast.
+
+hypothesize that abstraction of image may help these things
+
+"wizard of oz prototype"
+
+-----this talk is about training the eye to see art concepts and what tools
+can be used to help develope this "vision"
+
+detects edges. contrast and highlight the white
+
+Saliency maps
+-classify and color-code edges.
+
+
+describing participants thoughts on the photographs.
+app is highlighting edges.
+-person observed that no clear subject.
+-versus no clear subject being wanted.
+
+expert vision
+-contrasted-based edge highlights - consider decluttering in terms on contrast.
+specific foseud on border
+
+Domains of Lighting: -environment lighting is important.
+common mistakes:
+inappropriate use of flash
+back-lit photo where face is completely in shadow
+oddly shaped objects cast across face.
+
+vs :Professional lighting guide styles to choose from.
+
+How can novices be suported in developing artistic vision?
+Look: (name is look) lkighting style, strong light on left, triangle on right cheek
+
+natural environments provide less control.
+
+First must capture environmnet map
+HDR image.
+
+my thought:
+I think a baseline learning of 3d modeling would give good lessons on these topics.
+ie blender starter stuff.
+I think that if you want to develop artistic vision, you need to understand
+waht things to look for/at - i don't think there are that many. Just learn them?
+
+using HDR imagine and modeling to see how we can determine what style is wanted.
+f(x) quality metric to examine lihgting style.
+
+question: Did you render each of the angles to see what best lined up with what
+you wanted?
+
+think it would have been better to have a self-captured HDR vs one that was similar.
+
+notice that focus is on awareness of principles and idea the system should
+have minimal option.
+
+wanted to ask: What are the behaviors that we should be aware of when providing
+computational creative feedback?
+-is the creative frequency and timing on this feedback good/bad/too much?
+
+
+Principles: Originla design:
+Potential issues found, general considerations to think about.
+
+"Can we help novices think in terms of these decisions and can this help"
+
+
+specific, justified, actionable
+wizard of oz design feedback.
+
+really seems to me that these "apps" are only pointing out very obvious things?
+Like margins, contrast - mostly margins between contrasting areas.
+-talking about design choices.
+
+---
+When you complete this assignment, please write a summary of at least 50 words
+of the event and how you spent the 2 hours.
+After you have attended the 2 events, write a summary of what you did and
+what you learned from the events.
+---
+
+I attended the talk " " by AUTHOR. This talk took place DATE at TIME in the
+Computer Sciences building. This talk explored different ways that novices
+could be guided to make better design choices using different technological
+tools or apps. The major topics explored were decluttering, professional
+lighting in photographs, and design principles in data storytelling
+(like flyers or similar media). The tools used methods such as contrast increase
+to better explain contrast areas or highlight lines that can be distracting (for
+decluttering), photographic lighitng using a function to assess the light
+map and see if it lines up with whatever photographic style the user was trying
+for, and contrast and margin detection to assess design of flyers or such.
+
+I attended the hour-long event and took notes during, which I used to write
+this small summary.
+
+I think that the talk was interesting in terms of beginning to look at
+different technologies to achieve the goal of "faster learning," however, I was
+unsure if the point of the technology was more to just get faster results or if
+the point was that novices would learn the design principles behind the
+way the technologies were implemented. I think the talk focused more on an
+overall view
+---
+Risks of overreliance? And gamify to win and no issues.
+
+
+Approach to capture expert knowledge to train novices.
+Distilling knowledge.
+-capturing and distilling
+
+generative AI - used for generating near end, but noted that lofi prototypes
+work great for support in learning process. (scaffolding)
+
+
+
+Was it a real time comparison to the renders of the HDRIs to see what was the best match
+to the desired look or
+
+when you did the lighitng one with the HDRIs, did you render each frame for each
+angle and then decide what one matched the closest to the "ideal look or style"
+
+Did you have to gather a ton of renders to be able to assess this for the first place?
+for each different "Style or look?"
+
+Was it using a similar HDRI? How was the lighitng similarity assessed?
+
+Ddi you give very basic design guidelines for these or are these from people
+with no "artistic training"
+
+these are tools not replacements.
