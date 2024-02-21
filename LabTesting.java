@@ -1,10 +1,37 @@
+///////////////////////// TOP OF FILE COMMENT BLOCK ////////////////////////////
+//
+// Title:           descriptive title of the program making use of this file
+// Course:          CS200, Spring 2024
+//
+// Author:          Amber Dahlberg
+// Email:           aadahlberg@wisc.edu
+// Lecturer's Name: Jim Williams
+//
+///////////////////////////////// CITATIONS ////////////////////////////////////
+//
+// Source or Recipient; Description
+// Examples (REMOVE in your code - unless Jane Doe helped you and you helped
+// John Doe accordingly): Jane Doe; helped me with for loop in reverse method
+// https://docs.oracle.com/javase/tutorial/java/nutsandbolts/for.html;
+//         counting for loop
+// John Doe; I helped with switch statement in main method.
+// ChatGPT; Helped with debugging an off-by-one error with a loop.
+//
+/////////////////////////////// 80 COLUMNS WIDE ////////////////////////////////
 import java.util.Scanner;
-
+/**
+ * (Write a succinct description of this class here. You should avoid
+ * wordiness and redundancy. If necessary, additional paragraphs should
+ * be preceded by <p>, the html tag for a new paragraph.)
+ * <p>Bugs: (a list of bugs and other problems)
+ *
+ * @author (your name)
+ */
 public class LabTesting {
   /**
-   * Program entry.
+   * Program javadoc comment.
    */
-  public static String g(int testScore) {
+  public static String gradingScore(int testScore) {
     String dailyGrade;
     if (testScore >= 93) {
       // [t] sub for testScore
@@ -27,13 +54,11 @@ public class LabTesting {
   }
 
   public static void main(String[] args) {
-    Scanner z = new Scanner(System.in);
+    Scanner nextScore = new Scanner(System.in);
     System.out.print("Enter your score: ");
-    int s = z.nextInt();
-    System.out.println("Grade: " + g(s));
+    int score = nextScore.nextInt();
+    System.out.println("Grade: " + gradingScore(score));
   }
 }
 
-// this is like 5 minutes of work at this state.
-// Save for tmr.
 // substitution: :%s/srch/rplc/g

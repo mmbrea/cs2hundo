@@ -1,12 +1,14 @@
-
 import java.util.Scanner;
 
-public class NewTesting {
+public class TodayTesting {
+  /**
+   * Program entry.
+   */
   public static void main(String[] args) {
-    Scanner scnr = new Scanner(System.in);
+    /* Print command-line arguments. */
     Scanner input = new Scanner("Madison Smith\n123 Main St.");
     String firstName = input.next();
-    String lastName = null;
+    String lastName = "null";
     if (firstName == "Madison") {
       System.out.println("firstName is Madison");
     } else {
