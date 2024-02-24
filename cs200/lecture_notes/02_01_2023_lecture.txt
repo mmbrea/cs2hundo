@@ -1,0 +1,55 @@
+Lecture from today:
+
+
+text based game
+check video for the description of the game:
+
+"procedural programming using objects" - that is this class
+OOP - CS 300 focused on object oriented
+we get paid to work on problems and solve puzzles
+
+new problem  =curious
+
+How far away is the lightinging:
+
+start the thing:
+wait for the lightnight to happen.
+when lightening happens, start count,
+when sound happens, stop count.
+number of seconds = miles away.
+output the stuff = string as
+
+notes from prof: both times? Meh
+outputs:
+
+sound travels a thousand feet a second
+
+room 3 today
+
+import statements before any classes - no packages to be used in this course
+- zxybooks will get confused if we use packages/package statements
+- only useing default package
+
+in Java, everything in classes - so class next
+
+= is assignment in java
+whatever is in right side, put on left.
+
+need to memorize and recognize 8 primitive data types
+
+import java.util.Scanner;
+
+public class Convert {
+   public static void main(String []args) {
+      Scanner input = new Scanner(System.in);
+      int feet = input.nextInt();
+      int inches = input.nextInt();
+
+      final double METERS_PER_FOOT = 0.3048;
+      final double METERS_PER_INCH = 0.0254;
+      double meters = feet * METERS_PER_FOOT + inches * METERS_PER_INCH;
+
+      System.out.println( "height in meters: " + meters);
+   }
+
+}

@@ -1,0 +1,119 @@
+
+Teacher says he did not do school until later also, learn about this later. 
+
+cs200: Shared notes; will be using.
+
+I have experience, just not super confident with things. Helping others is a great way to help yourself by really learning the stuff.
+
+Competency based course - can keep turning in until get grade that we want, can keep redoing until the material is mastered. NO CURVE - no competition. 
+
+somoene will pay us to solve new problems that have not been solved before. chat gpt stuff wont ever help because everything in the calss can be solved by chat gpt. 
+
+Eventually solve not-yet-solved-problems. 
+
+If you think "this can be done by..." yuo sohuld be in business instead and hire the people to solve the problems. 
+
+Zybooks doesnt have the deadlines. The modules list is the checklist for the entire course. Different assisngments, etc - the things needed to master as we go. 
+
+Jan 26th is homework due
+
+Blue due next week and green due next thursday
+
+Java was not designed for newcomers to programming, was designed to solve problems, is powerful, not easy not friendly for learning, its hard and weird. Wasn't made for learning was made for power users. 
+
+Will be building up Java knowledge through the course. 
+
+what us humans type = soure code. 
+
+Source code doesn't run on the computer, needs to be converted to machine code by compilation. 
+
+First few weeks we will use the in browser compiler and running the small programs. 
+
+Compiling and runing - 2 key steps
+3 key things: edit/compile/run cycle
+1. Editor - type code
+2. Compiler - takes source code and converts to another form. Where we see the harsh world that is programming when you miss a single character, like a semicolon. 
+3.  Run cycle. 
+
+Piazza:
+Assignment codes = only send to instructors. Cannot post/send assignment code to others or academic misconduct. 
+16 TAs 
+1301 CS building - main floor. Room set up for this course. 
+QR code to sign up for the line spot in the help queue. 
+
+Log into google for the TA drop in hours: On canvas.
+
+All code must be in a class. A class is basically a container for methods, more to it but we will get in later.
+public class means accessible outside package = accessible. 
+static = class method. 
+In this course most every will be static method. 
+
+Near end object oriented and talk about what not static means. 
+
+Main method is where execution starts.
+
+Some lab computers ahve linux on them, to access those you need the CS login. 
+
+lecture 2 shared notes; share commonalities or unual things. have reporter wrtie down what is discovered. 
+
+abbie zeller electrical engineering. 
+tim industrial enginering. cs 220 python 
+year off coop - 
+
+calc 2 is the commonality - no one likes it 
+
+challenge of bordom - interesting that a lot of people with substantial experience get bad grades. 
+
+quickly learn to do ai models with python. This course is about how things work and insight and setting strong foundation, systematically, to prepare to do a lot of programming. 
+
+304 small group course
+
+220 is a data science starting place.
+
+us history: Prior to 1970 career were men/women divided. 
+in 80s women started not entering computer science. due to marketing really. bad perceptions about cs for women - no difference in reality. How we treat each other in expectations that matter. More history on slides. 
+
+impact of CS is high - 35 years ago he was diong what we are. 
+
+majority of class selected life long learning skills. 
+Remember the room you get assigned to in case of disconnect, each time. 
+
+learning how to use information and knowledge in new situations. 
+room 2 
+lifelong learning, particularly in this field taht contunually adapts and changes, 
+
+course set up as study cycle, orange blue green in zybooks - some things easy by reading, but some things we practice
+
+lecture activities: all that is L in canvas - quizlets - online tool to help memorize stuff. quizlets not tracked but they are there to help and practice 
+
+challenge activities are teh blue ones on zybooks. if you can do it later without research or review you might need more study
+
+team labs next week, assigned parters and assigned TAs - will email me later witha a zoom link and introduciton
+
+wednesday labs 
+
+team labs; social way to review, discuss, etc. 
+
+each week, need to do 5 "star ones"
+calcualted - number of stars times percentage earned over all of them. due next thursday. Schedule checklist of the course/modules has the due dates.
+
+Previous semester exams will be available - years of exams organized by topic and added feedback and added 1-4 min videos explainations. and that is where the lecture activities come from. 
+
+1L tracing code. this is for self assessment - key here is that masters - competency based. get 90% or better - master REUQIRED to do well in this class because they build quickly and it will be really dificult to go on. 
+-steps of "things to master as you go"
+
+intention is to learn programming via lots of practice. 
+study cycle. 
+
+programming language is similar to real language, after learning you can learn more.
+
+forgetting curve: prof introduced to this as a grad student. educational society and cs 
+
+forgetting curve. just keep relearning it and it gets better and quicker each time and you keep retainng longer and longer each time. 
+"flatten the forgetting curve"
+what about humans?
+cockroaches - all biological systems forget at the same rate
+
+teams labs not a divide and conquer - not a race, share the keyboard. 
+
+professional skills of getting along with otehrs. 

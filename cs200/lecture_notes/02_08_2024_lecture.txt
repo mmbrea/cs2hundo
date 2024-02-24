@@ -1,0 +1,98 @@
+Announcement: Zybooks shit coming up 3.1:
+The challenge activities have amterial from the next chapter, if statements.
+
+
+Quick review of last week:
+primitive datas types
+referenc ve data types this week.
+Big Scientists Investigate Little Furry Dogs Chasing Butterflies
+In order of amount of memory used for them;
+
+ALL LOWERCASE: Primitives
+widening conversion: byte short int long
+Approximations: float double
+char boolean
+
+NEW material: Reference data types:
+Fundamental concept - hang with
+URL vs Webpage: A URL is the address of a webpage.
+URL = address of where to find the webpage.
+webpage: The webpage
+
+Clicking the link to go to a website, the URL is the same.
+Different name link goes to same URL.
+
+We finna relate this to java.
+primitive data types store the value and if it is a reference it stores
+where to find the value.
+
+Scanner input = new Scanner("yuhyuh");
+-input- is a location for a memory, not a value.
+
+Zybooks and labs going over to review this all.
+"Read Tokens using Scanner"
+
+Token: Cannot have whitespace; is a sequence of visible characters. Must
+have at least one visible character.
+
+Scanners:
+next()           //return token as a string
+nextInt()        //try to return token as an int
+nextDouble()     //try to return token as a double
+
+all above skip whitespace and will all end when whitespace is found again.
+Look for the next token and then returns that token as a string of characters.
+
+InputMismatchException when token not int or double, respectively.
+NoSuchElementException when there is no (or no more) data to be read.
+
+Java visualizer example next, moving to discord for any SS or notes.
+
+String literal in memory: will look like string is stored in the variable str,
+but it is not.
+Sstring is an instance of the string class on the heap and the URL is stored in
+str.
+
+Similarly, scanner iwll be reading from the string, now next token reads 14
+...... then reads 22
+
+Cannot read from () because that shit will crash.
+(crash only in java visualizer?)
+
+By week 6 we will be making programs that do not crash.
+
+One aspect ahead is how to make it not crash and give useful error message to
+the user.
+
+Read a line using a scanner: Read up to and including next newline (\n) or end
+of input, return everything prior to newline as a string (may be 0 length)
+
+/n is whitespeace and leading whitespace
+
+String of length 0
+
+60% perfers the little details, learn, then visualize big picture,
+40% like big picture first then details.
+I like big picture first then little details.
+
+Widening operation to convert char to int.
+Purpose of data types how much memory, mow many bites bytes and how to interpret
+
+char means look at 2 bites/16 bits and then interpret from unicode as character.
+Same bit pattern being vbiewed as an int corresponds to interger 50.
+all same 1's and 0's below
+but the primitive data type is what tells how to represent those ones and zeros.
+
+Substring(3,6)
+start at 3 and go up to but not including 6
+-start at 3 go to 6 (but don't incldue)
+-so would return 3, 4, and 5
+-does not include the whitespace before or after the characters
+
+take calculation, put it in its own metho, and give it its own name.
+
+Guessing lecture is going to go over so wilkl have to rewatch the end again
+later.
+
+I recommend to myself to go back and rewatch the recorded lecture so I can
+rewind and relisten to the things I missed.
