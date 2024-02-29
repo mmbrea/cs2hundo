@@ -1,9 +1,17 @@
 import java.util.Scanner;
 
 public class ModuleFiveTesting {
+  /**
+   * Javadoc comment.
+   *
+   */
   public static void main(String[] args) {
-    for (int i = 5; i > 4; --i) {
-      System.out.print(i);
+    String word = "apple";
+    if (word != null && word.length() > 5) {
+      System.out.println(word + " is long");
+    } else if (word != null && word.length() > 5) {
+      System.out.println(word + " is short");
+      System.out.println("length is" + word.length());
     }
   }
 }
