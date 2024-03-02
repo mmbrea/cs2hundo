@@ -30,30 +30,31 @@ import java.util.Scanner;
  * @author Amber Dahlberg
  */
 public class H6CustomApp {
-  public enum SymbolEnums { n, µ, m, yup, k, M, G, T }
+  public enum SymbolEnums { n, µ, m, TODO, k, M, G, T }
 
   /**
-   * This method does testing.
-   */
-  public static void testMe(int time) {
-    // somethign here.
-    int divisor = 1000;
-    // int decimal = input;
-    int fractional = 0;
-  }
-
-  /**
-   * This main method implements a program to take time in seconds, and convert
-   * to hours, minutes, and seconds; and then prints the result.
+   * This main method TODO.
    *
    * @param args unused
    */
   public static void main(String[] args) {
-    // length+print SymbolEnum
-    int size = SymbolEnums.values().length;
-    System.out.println("Length of SymbolEnum: " + size);
-    SymbolEnums symbolVal;
-    symbolVal = SymbolEnums.yup;
-    System.out.println("Exiting.");
+    System.out.println("Enter time in nanoseconds: ");
+
+    Scanner keyboard = new Scanner(System.in);
+    int timeInput = keyboard.nextInt();
+
+    int divisor = 1000;
+    int decimal = timeInput;
+    int fractional = 0;
+
+    int iteration = 0;
+    while (decimal >= divisor && iteration < SymbolEnums.values()) {
+      fractional = decimal % divisor;
+      decimal = decimal / divisor;
+      iteration += 1;
+    }
+
+    System.out.println("Output is: " + decimal + "." + fractional + " " +
+                       SymbolEnumsTODO[iteration] + ". The end. \n");
   }
 }
