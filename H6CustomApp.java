@@ -16,6 +16,7 @@
 //
 // 1. Describe the problem you wrote the program to solve: TODO
 // 2. What are the biggest challenges you encountered: TODO
+//      Not being able to use an array.
 // 3. What did you learn from this assignment: TODO
 //
 /////////////////////////////// 80 COLUMNS WIDE ////////////////////////////////
@@ -29,7 +30,18 @@ import java.util.Scanner;
  * @author Amber Dahlberg
  */
 public class H6CustomApp {
-  public enum SymbolList { n, µ, m, wut, k, M, G, T }
+  public enum SymbolEnums { n, µ, m, yup, k, M, G, T }
+
+  /**
+   * This method does testing.
+   */
+  public static void testMe(int time) {
+    // somethign here.
+    int divisor = 1000;
+    // int decimal = input;
+    int fractional = 0;
+  }
+
   /**
    * This main method implements a program to take time in seconds, and convert
    * to hours, minutes, and seconds; and then prints the result.
@@ -37,34 +49,11 @@ public class H6CustomApp {
    * @param args unused
    */
   public static void main(String[] args) {
-    /* New scanner, take input. */
-    SymbolList symbolVal;
-    symbolVal = SymbolList.wut;
-    Scanner scnr = new Scanner(System.in);
-    System.out.println("Enter a time in seconds: ");
-    if (scnr.hasNextInt()) {
-      int input = scnr.nextInt();
-      getTime(input);
-    } else {
-      System.out.println("Invalid time! Defaulting to random time: ");
-      Random randGen = new Random();
-      int randomTime = Math.abs(randGen.nextInt(2147483647));
-      System.out.println("Time chosen: " + randomTime + " seconds is..");
-      getTime(randomTime);
-    }
-  }
-
-  /**
-   * This method calculates time in hours, minutes, and seconds.
-   */
-  public static void getTime(int time) {
-    int hour = time / 3600;
-    time = time % 3600;
-    int min = time / 60;
-    time = time % 60;
-    int sec = time;
-    System.out.println("\n Time is: " + hour + " h, " + min + " m, " + sec +
-                       " s\n");
+    // length+print SymbolEnum
+    int size = SymbolEnums.values().length;
+    System.out.println("Length of SymbolEnum: " + size);
+    SymbolEnums symbolVal;
+    symbolVal = SymbolEnums.yup;
     System.out.println("Exiting.");
   }
 }
