@@ -29,7 +29,7 @@ import java.util.Scanner;
  * @author Amber Dahlberg
  */
 public class H6CustomApp {
-
+  public enum SymbolList { n, µ, m, wut, k, M, G, T }
   /**
    * This main method implements a program to take time in seconds, and convert
    * to hours, minutes, and seconds; and then prints the result.
@@ -38,6 +38,8 @@ public class H6CustomApp {
    */
   public static void main(String[] args) {
     /* New scanner, take input. */
+    SymbolList symbolVal;
+    symbolVal = SymbolList.wut;
     Scanner scnr = new Scanner(System.in);
     System.out.println("Enter a time in seconds: ");
     if (scnr.hasNextInt()) {
