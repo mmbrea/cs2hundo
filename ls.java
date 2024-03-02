@@ -11,7 +11,6 @@
 //
 // Source or Recipient; Description
 // No help given or received.
-//
 /////////////////////////////// 80 COLUMNS WIDE ////////////////////////////////
 //
 import java.util.Scanner;
@@ -21,7 +20,7 @@ import java.util.Scanner;
  *
  * @author Amber Dahlberg
  */
-public class Boilerplate {
+public class ls {
 
   /**
    * This main method implements a TODO program.
