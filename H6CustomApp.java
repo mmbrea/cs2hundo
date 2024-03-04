@@ -48,7 +48,7 @@ public class H6CustomApp {
     int fractional = 0;
 
     int iteration = 0;
-    while (decimal >= divisor && iteration < SymbolEnums.values()) {
+    while (decimal >= divisor && iteration < SymbolEnums.ordinal()) {
       fractional = decimal % divisor;
       decimal = decimal / divisor;
       iteration += 1;
