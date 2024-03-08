@@ -1,0 +1,44 @@
+Module 4-6 Exam 2
+4 L | Overview: Branches
+In this module, you will learn to write branches, choosing which code to execute and which not to execute.
+
+Questions to Consider:
+How does a program make choices?
+Boolean expressions can get complex. Is there a way to systematically analyze and verify them?
+What tools do professional developers use?
+What are some debugging techniques?
+What are the expectations for styling code?
+
+Learning Outcomes:
+1. Trace, Explain, and Write:
+	expressions using if, if-else, and switch statements.  (not nested)
+	expressions with logical boolean operators (||, &&, !) and comparison operators (==, <, >, <=, etc.).
+	using == and equals for comparing references and String values.
+2. Create and use a truth table for a boolean expression.
+
+
+== used with reference type will compare references, not values.
+
+==         compares references        use with: primitive comparisons
+						comparing reference similarity
+equals()   compares values/contents   use with: classes like String and Integer
+
+if / if else challenges:
+
+If string str = null, NullPointerException when accessing, must check
+for non-null(valid) before accessing object/instance members.
+
+conditional expression:
+	condition(boolean) ? expressionWhenTrue : expressionWhenFalse
+
+Scanner hasX Methods:   looks ahead, doesn't read. Safe reading options.
+
+hasNext(): returns true if there is another token.
+hasNextInt(), hasNextDouble(): returns true if next token can be converted into int or double
+hasNextLine(): returns true if there is another line of input
+
+Scanner input = new Scanner("to be or not to be\n"); //or read from the user with System.in
+int num = input.nextInt();  //would result in an java.util.InputMismatchException since nextInt() can't convert "to" to an int.
+
+terminology:
+case: keyword designating a specific value to compare to in a switch statement.
