@@ -7,5 +7,5 @@ source "$CWD/sh/common.sh"
 javac -Xlint:all -encoding utf-8 "$PROG.java"
 
 echo "Running '$PROG' (command-line: '$*')."
-java "$PROG" "$@" || true
+time java "$PROG" "$@" || true
 echo "'$PROG' exited $?."

@@ -12,7 +12,7 @@ OUTPUT=$TEXT_DIR/stdout.txt
 INPUT=$TEXT_DIR/stdin.txt
 
 echo "Running '$PROG' (command-line: '$*')."
-java "$PROG" "$@" < $INPUT > $OUTPUT || true
+time java "$PROG" "$@" < $INPUT > $OUTPUT || true
 echo "'$PROG' exited $?."
 
 EXPECTED=$TEXT_DIR/expected.txt
