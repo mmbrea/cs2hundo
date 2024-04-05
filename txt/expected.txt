@@ -1,12 +1,12 @@
-Welcome to Fruit Selector!
-How many fruits do you want to select?
-Banana
-Would you like to create another list? Y - yes, N - no
-How many fruits do you want to select?
-Banana
-Cherry
-Blueberry
-Pear
-Orange
-Would you like to create another list? Y - yes, N - no
-Bye!
+Please enter 3 words to encrypt followed by 2 integer delete position signals.
+current encoded message: iwnsp
+rtwj
+bfyjw
+false
+current encoded message: iwnsp
+rtwj
+bfyjw
+false
+current encoded message: iwnsp
+rtwj
+bfyjw
