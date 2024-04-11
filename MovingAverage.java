@@ -42,11 +42,11 @@ public class MovingAverage {
      */
     public static ArrayList<Double>
     calculateMovingAverage(ArrayList<Integer> list, int n) {
-        if (list == null) {
-            return null;
-        }
-
         ArrayList<Double> result = new ArrayList<>();
+
+        if (list == null) {
+            return result;
+        }
 
         for (int i = 0; i < list.size(); i++) {
             double curr = 0;

@@ -68,12 +68,13 @@ public class TestMovingAverage {
 
         { // test 2, when null is passed in instead of a list then the
             // appropriate value is returned.
+            ArrayList<Double> expected = new ArrayList<>();
             ArrayList<Double> actual =
                 MovingAverage.calculateMovingAverage(null, 0);
-            if (actual != null) {
+            if (!actual.equals(expected)) {
                 error = true;
                 System.out.println("testMovingAverage 2) Error, expected: " +
-                                   null + " , actual: " + actual);
+                                   expected + " , actual: " + actual);
             }
         }
 
