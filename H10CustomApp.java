@@ -62,13 +62,65 @@ public class H10CustomApp {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // interacts with the user to obtain multiple values.
-        // then call methods that you write to do operations
-        // on those values.  Use anything through chapter 10.
-        // The separate TestH10CustomApp.java file contains
-        // test cases called from testH10CustomApp() method.
+        boolean keepGoing = true;
+        ArrayList<Double> values = new ArrayList<>();
+        ArrayList<Double> weights = new ArrayList<>();
+
+        int iteration = 0;
+        while (keepGoing) {
+            System.out.println("Enter a value (" + iteration +
+                               " pairs so far).");
+            keepGoing = getNextDouble(scanner, values);
+
+            if (keepGoing) {
+                System.out.println("Enter a weight for this value.");
+                getNextDouble(scanner, weights);
+            }
+
+            if (keepGoing) {
+                iteration++;
+            }
+        }
+
+        System.out.println("Values:           " + values);
+        System.out.println("Weights:          " + weights);
+        System.out.println("Weighted average: " +
+                           computeWeightedAverage(values, weights));
+
+        System.out.println("Goodbye.");
 
         scanner.close();
+    }
+
+    /**
+     * Handles prompting the user for a valid input and returning it once
+     * that input is received.
+     *
+     * @param keyboard Scanner to gather input from.
+     * @param values   List of doubles to append value to.
+     * @return         Whether or not a value was added. If not, the user has
+     *                 requested to exit the program.
+     */
+    static boolean getNextDouble(Scanner keyboard, ArrayList<Double> values) {
+        boolean valid = false;
+
+        while (!valid) {
+            /* Print prompt. */
+            System.out.print(
+                "Enter a number greater than or equal to zero, or 'q': ");
+
+            if (keyboard.hasNextDouble()) {
+                double candidate = keyboard.nextDouble();
+                if (candidate >= 0) {
+                    values.add(candidate);
+                    valid = true;
+                }
+            } else if (!keyboard.hasNext() || keyboard.next().equals("q")) {
+                break;
+            }
+        }
+
+        return valid;
     }
 
     /**
