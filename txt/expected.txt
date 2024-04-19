@@ -1,1 +1,11 @@
-expected text here.
+Cities with tourist sites:
+Colorado Springs: Garden of the Gods, Pikes Peak, Cheyenne Mountain Zoo
+Miami: Vizcaya Museum and Gardens, South Beach, Everglades National Park
+Minneapolis: Mall of America, Minneapolis Institute of Art, Walker Art Center
+New Orleans: French Quarter, Jackson Square, National WWII Museum
+Oakland: Oakland Museum of California, Redwood Regional Park, Lake Merritt
+Omaha: Henry Doorly Zoo and Aquarium, Old Market, Heartland of America Park
+Raleigh: NC Museum of Natural Sciences, NC Museum of Art, North Carolina Museum of History
+Tulsa: Philbrook Museum of Art, Gathering Place, Tulsa Zoo
+Virginia Beach: Virginia Aquarium & Marine Science Center, First Landing State Park, Virginia Beach Boardwalk
+Wichita: Sedgwick County Zoo, Old Cowtown Museum, The Keeper of the Plains
