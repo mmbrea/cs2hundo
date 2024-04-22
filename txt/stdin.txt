@@ -1,11 +1,1 @@
-Virginia Beach
-Omaha
-Colorado Springs
-Raleigh
-Miami
-Oakland
-Minneapolis
-Tulsa
-Wichita
-New Orleans
-Arlington
+sample_text.txt 3
